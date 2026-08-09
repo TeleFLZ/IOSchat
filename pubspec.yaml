@@ -1,0 +1,24 @@
+name: telegram_ios_style
+description: iOS-style Telegram mod for Android
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.18.1
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
